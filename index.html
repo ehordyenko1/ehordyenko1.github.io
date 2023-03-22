@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+  <title>Kozak</title>
+</head>
+
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-colour">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="..." alt="" width="65px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Головна</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Товари та послуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Про нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакти</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Доставка й оплата</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Информація для дилерів</a>
+            </li>
+            <!-- <li>
+              <a href="#"><img src="images/корзина.png" alt="..."></a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section>
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-2 color block">
+          <a href="index.html"><img class="kozak-img" src="..." style="width: 10rem;" alt=""></a>
+          <div class="content">
+
+            <div class="production">
+              <p class="text">Виробник печей KOZAK</p>
+            </div>
+
+            <div class="phonenumclass">
+              <p class="phonenum">+380 (97) 099-44-41</p>
+              <p class="phonenum">+380 (63) 992-96-36</p>
+            </div>
+
+            <div class="documents">
+              <p class="Documents">Наявність документів</p>
+            </div>
+
+            <div class="text-for-doc">
+              <li><a href="">Знак <img class="galo4ka"
+                    src="data:image/png;base64,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"
+                    alt="">(Й Наявність документів означає, що компанія
+                  завантажила свідоцтво про державну реєстрацію для
+                  підтвердження свого юридичного статусу компанії або фізичної
+                  особи-підприємця.</a></li>
+            </div>
+
+            <div class="menu">
+              <h4>Menu : </h4>
+            </div>
+
+            <div class="about-us">
+              <a href="#">
+                <p>Про нас</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 img1 allimg">
+                <div class="card">
+                  <img class="img-card" src="images/images-removebg-preview.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">14 260 грн</h2>
+                    <p class="card-text">Турбо-булер'ян KOZAK тип 07 з примусовим наддувом 2000 м. куб. 75 кВт</p>
+                    <button type="button" class="btn btn-outline-light">Купить</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 img2 allimg">
+                <div class="card">
+                  <img class="img-card" src="images/img-kozak.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">12 650 грн</h2>
+                    <p class="card-text">Булерь'ян KOZAK Тип 00 до 100 м3</p>
+                    <button type="button" class="btn btn-outline-light">Купить</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 img3 allimg">
+                <div class="card">
+                  <img class="img-card" src="images/ываы-removebg-preview.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">9 000 грн</h2>
+                    <p class="card-text">Піч для лазні з парогенератором KOZAK для 22-30 м3 парної з виносом-телескоп
+                    </p>
+                    <button type="button" class="btn btn-outline-light">Купить</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 img5 allimg">
+                <div class="card">
+                  <img class="img-card" src="images/подставкадлябул.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">1 640 грн</h2>
+                    <p class="card-text">Підставка для булерьян 'Стандарт' тип 01
+                    </p>
+                    <button type="button" class="btn btn-outline-light">Купить</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 img4 allimg">
+                <div class="card">
+                  <img class="img-card" src="images/мангал.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">2 400 грн</h2>
+                    <p class="card-text">Мангал складаний 2,5 мм на 9 шампурів (розбірний, переносний) портативний міні гриль для кемпінгу Україна
+                    </p>
+                    <button type="button" class="btn btn-outline-light">Купить</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="title-kozak">
+            <p>KOZAK</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </section>
+
+  <footer>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
