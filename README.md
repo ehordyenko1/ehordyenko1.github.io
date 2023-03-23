@@ -1,5 +1,6 @@
-#Сайт для печей и булерьянов
+# Сайт для печей и булерьянов
 
-##Компания Kozak
+## Компания Kozak
+![kozak-photo](images/kozak-for-readmyfile.png)
 
 [ссылка на сайт компании Kozak](https://ehordyenko1.github.io)
